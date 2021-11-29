@@ -8,15 +8,14 @@ const About = () => {
     <Container className="about-container py-5">
       <div className="about-left">
         <div className="d-flex">
-          <img className="about-img w-50" src={ruhulAbout} alt="" />
-          <div className="about-detail w-50">
+          <div className="about-detail">
             <p>
               <p>Name: Ruhul Amin</p>
               <p>Profile: MERN stack developer</p>
-
               <p>Email: ruhulzero7@gmail.com</p>
-
               <p>Phone: +880 01739713724</p>
+              <p>LinkedIn: linkedin.com/ruhulzero7</p>
+              <p> Github: github.com/ruhulzero7</p>
             </p>
           </div>
         </div>
@@ -37,13 +36,18 @@ const About = () => {
       <div className="about-right">
         <h3>Aboute Me</h3>
         <p>
-          I've been trying to learn programming for 2 years, at this time
-          Looking back in my past, I can't find any other chapter except coding
-          I have become so involved with programming that coding has become an
-          addiction. That's why when I finish a project at the right time, then
-          I feel full of peace, joy, and a smile to Finally,Dedicated and
-          efficient full stack developer with 8+ months of experience in
-          application layers, presentation layers, and databases.
+          I have always been passionate about web development, which led me to
+          pursue a Bachelor of Computer Science degree. I am constantly seeking
+          out new technologies and stay up-to-date on trends in the industry.
+        </p>
+        <p>
+          I have extensive knowledge of HTML, CSS, JavaScript, React, Node, and
+          MongoDB.
+        </p>
+
+        <p>
+          I look forward to sharing more about my skills and experiences. Feel
+          free to contact me at +88 01739713724 or ruhulzero7@gmail.com.
         </p>
       </div>
     </Container>
