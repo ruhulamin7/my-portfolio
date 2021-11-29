@@ -1,13 +1,14 @@
 .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  background-color: #444f6183;
 }
 .about-img {
   width: 200px;
 }
 .about-detail {
-  font-weight: 500;
-  font-size: 25px;
+  font-weight: 300;
+  font-size: 22px;
   margin-bottom: 30px;
   text-align: left;
 }

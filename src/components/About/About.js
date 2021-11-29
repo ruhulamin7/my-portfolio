@@ -1,40 +1,36 @@
 import React from "react";
 import "./About.css";
-import ruhulAbout from "../../images/about.jpg";
 import { Container, ProgressBar } from "react-bootstrap";
 
 const About = () => {
   return (
     <Container className="about-container py-5">
-      <div className="about-left">
-        <div className="d-flex">
-          <div className="about-detail">
-            <p>
-              <p>Name: Ruhul Amin</p>
-              <p>Profile: MERN stack developer</p>
-              <p>Email: ruhulzero7@gmail.com</p>
-              <p>Phone: +880 01739713724</p>
-              <p>LinkedIn: linkedin.com/ruhulzero7</p>
-              <p> Github: github.com/ruhulzero7</p>
-            </p>
-          </div>
-        </div>
+      <div className="about-left px-5">
         <div className="skills text-start">
           <h3>Skills</h3>
           <div>
+            <span>HTML 80%</span>
+            <ProgressBar striped variant="success" now={80} />
+            <br />
+            <span>CSS 75%</span>
+            <ProgressBar striped variant="info" now={75} />
+            <br />
             <span>JavaScript 70%</span>
-            <ProgressBar striped variant="success" now={70} />
-            <span>JavaScript 20%</span>
-            <ProgressBar striped variant="info" now={20} />
-            <span>JavaScript 60%</span>
-            <ProgressBar striped variant="warning" now={60} />
-            <span>JavaScript 80%</span>
-            <ProgressBar striped variant="danger" now={80} />
+            <ProgressBar striped variant="warning" now={70} />
+            <br />
+            <span>React.js 75%</span>
+            <ProgressBar striped variant="danger" now={75} />
+            <br />
+            <span>Node.js 70%</span>
+            <ProgressBar striped variant="danger" now={70} />
+            <br />
+            <span>MongoDB.js 65%</span>
+            <ProgressBar striped variant="danger" now={65} />
           </div>
         </div>
       </div>
-      <div className="about-right">
-        <h3>Aboute Me</h3>
+      <div className="about-right px-5">
+        <h2>About Me</h2>
         <p>
           I have always been passionate about web development, which led me to
           pursue a Bachelor of Computer Science degree. I am constantly seeking
@@ -49,6 +45,8 @@ const About = () => {
           I look forward to sharing more about my skills and experiences. Feel
           free to contact me at +88 01739713724 or ruhulzero7@gmail.com.
         </p>
+        <p>LinkedIn: linkedin.com/ruhulzero7</p>
+        <p> Github: github.com/ruhulzero7</p>
       </div>
     </Container>
   );

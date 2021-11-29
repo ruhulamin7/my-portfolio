@@ -6,20 +6,31 @@ import "./Header.css";
 const Header = () => {
   return (
     <div className="nav-menu">
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar
+        className="py-4"
+        collapseOnSelect
+        expand="lg"
+        bg="dark"
+        variant="dark"
+      >
         <Container>
-          <Navbar.Brand href="#home">Ruhul Amin's Portfolio</Navbar.Brand>
+          <Navbar.Brand to="/home">
+            <span style={{ color: "orange" }}>Ruhul Amin's Portfolio</span>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
               <NavLink as={Link} className="nav-link" to="/home">
-                Home
+                HOME
               </NavLink>
               <NavLink as={Link} to="/about">
-                About
+                ABOUT
               </NavLink>
               <NavLink as={Link} to="/projects">
-                Project
+                PROJECTS
+              </NavLink>
+              <NavLink as={Link} to="/contact">
+                CONTACT
               </NavLink>
             </Nav>
           </Navbar.Collapse>
