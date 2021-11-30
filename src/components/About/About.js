@@ -1,13 +1,13 @@
 import React from "react";
 import "./About.css";
-import { Container, ProgressBar } from "react-bootstrap";
+import { Col, Container, ProgressBar } from "react-bootstrap";
 
 const About = () => {
   return (
-    <Container className="about-container py-5">
-      <div className="about-left px-5">
+    <Container className="about-container" Row md={2} sm={1} xs={1}>
+      <Col className="about-left pt-5">
         <div className="skills text-start">
-          <h3>Skills</h3>
+          <h3>SKILLS</h3>
           <div>
             <span>HTML 80%</span>
             <ProgressBar striped variant="success" now={80} />
@@ -28,9 +28,9 @@ const About = () => {
             <ProgressBar striped variant="danger" now={65} />
           </div>
         </div>
-      </div>
-      <div className="about-right px-5">
-        <h2>About Me</h2>
+      </Col>
+      <Col className="about-right p-5">
+        <h2>ABOUT ME</h2>
         <p>
           I have always been passionate about web development, which led me to
           pursue a Bachelor of Computer Science degree. I am constantly seeking
@@ -43,11 +43,13 @@ const About = () => {
 
         <p>
           I look forward to sharing more about my skills and experiences. Feel
-          free to contact me at +88 01739713724 or ruhulzero7@gmail.com.
+          free to contact me at +88 01739713724 or ruhulaminbd99@gmail.com.
         </p>
-        <p>LinkedIn: linkedin.com/ruhulzero7</p>
-        <p> Github: github.com/ruhulzero7</p>
-      </div>
+        <p>
+          LinkedIn: linkedin.com/ruhulzero7 <br />
+          Github: github.com/ruhulzero7
+        </p>
+      </Col>
     </Container>
   );
 };

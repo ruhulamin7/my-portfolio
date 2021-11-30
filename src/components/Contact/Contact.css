@@ -10,11 +10,14 @@
 .contact {
   background-color: #1d304d3f;
 }
+.contact-form {
+  text-align: left;
+}
 .btn-book {
   background-color: #12c5c3;
   border: 0;
   color: white;
-  padding: 5px 10px;
+  padding: 5px 20px;
   transition: 0.2s;
 }
 .btn-book:hover {

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Card, Col, Container, Row, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Projects.css";
@@ -10,6 +10,14 @@ import doccure from "../../images/projects-img/doccure.png";
 import skillup from "../../images/projects-img/skillup.png";
 
 const Projects = () => {
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    fetch("/projects.json")
+      .then((res) => res.json())
+      .then((data) => setProjects(data));
+  }, []);
+
   return (
     <Container className="project-container my-5 py-3">
       <h2 className="my-5">PROJECTS</h2>
@@ -56,6 +64,10 @@ const Projects = () => {
                   Server Side Code
                 </a>
               </Button>
+
+              <Link to={`/projectDetails/${1}`}>
+                <Button variant="outline-dark">View Details</Button>
+              </Link>
             </Card.Body>
           </Card>
         </Col>
@@ -99,6 +111,9 @@ const Projects = () => {
                   Server Side Code
                 </a>
               </Button>
+              <Link to={`/projectDetails/${2}`}>
+                <Button variant="outline-dark">View Details</Button>
+              </Link>
             </Card.Body>
           </Card>
         </Col>
@@ -132,6 +147,9 @@ const Projects = () => {
                   Code
                 </a>
               </Button>
+              <Link to={`/projectDetails/${3}`}>
+                <Button variant="outline-dark">View Details</Button>
+              </Link>
             </Card.Body>
           </Card>
         </Col>
@@ -140,7 +158,7 @@ const Projects = () => {
           <Card className="mb-5 custom-card">
             <Card.Img variant="top" src={skillup} />
             <Card.Body>
-              <Card.Title>Skilup</Card.Title>
+              <Card.Title>Skilup Training</Card.Title>
               <Card.Text>Technology used : React, React Bootstrap</Card.Text>
               <Button variant="outline-dark">
                 <a
@@ -162,6 +180,9 @@ const Projects = () => {
                   Code
                 </a>
               </Button>
+              <Link to={`/projectDetails/${4}`}>
+                <Button variant="outline-dark">View Details</Button>
+              </Link>
             </Card.Body>
           </Card>
         </Col>
@@ -192,6 +213,9 @@ const Projects = () => {
                   Code
                 </a>
               </Button>
+              <Link to={`/projectDetails/${5}`}>
+                <Button variant="outline-dark">View Details</Button>
+              </Link>
             </Card.Body>
           </Card>
         </Col>
@@ -222,6 +246,9 @@ const Projects = () => {
                   Code
                 </a>
               </Button>
+              <Link to={`/projectDetails/${6}`}>
+                <Button variant="outline-dark">View Details</Button>
+              </Link>
             </Card.Body>
           </Card>
         </Col>

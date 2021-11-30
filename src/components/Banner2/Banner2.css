@@ -1,0 +1,39 @@
+.banner2-container {
+  position: relative;
+  background-image: url("../../images/banner-laptop.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-info h1 {
+  text-transform: uppercase;
+}
+.typed-text {
+  color: white;
+  font-size: 30px;
+}
+
+.frofile-img {
+  width: 200px;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.resume-btn {
+  background-color: transparent;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  border: 2px solid orange;
+  margin: 40px 0px;
+}
+.resume-btn:hover {
+  background-color: rgba(255, 166, 0, 0.418);
+}
