@@ -1,5 +1,7 @@
 .project-details-container {
   text-align: left;
+  background-color: #474747;
+  border-radius: 20px;
 }
 .details-container img {
   width: 100%;

@@ -35,6 +35,9 @@ const ProjectDetails = () => {
       img2: "https://i.ibb.co/3WDhN17/car-world-2.png",
       img3: "https://i.ibb.co/WK1nb89/car-world-3.png",
       img4: "https://i.ibb.co/ZNps8wt/car-world-4.png",
+      live: "https://car-world-97a18.web.app/",
+      client: "https://github.com/ruhulzero7/car-world-client",
+      server: "https://github.com/ruhulzero7/car-world-server",
     },
     {
       id: 2,
@@ -52,6 +55,9 @@ const ProjectDetails = () => {
       img2: "https://i.ibb.co/Y0GgnsL/cyclone-tour-2.png",
       img3: "https://i.ibb.co/KsQ70C2/cyclone-tour-3.png",
       img4: "https://i.ibb.co/c1MG59K/cyclone-tour-4.png",
+      live: "https://eloquent-bartik-bba836.netlify.app/",
+      client: "https://github.com/ruhulzero7/cyclone-tour-client",
+      server: "https://github.com/ruhulzero7/cyclone-tour-server",
     },
     {
       id: 3,
@@ -69,6 +75,8 @@ const ProjectDetails = () => {
       img2: "https://i.ibb.co/QvKqHFC/find-doctor-4.png",
       img3: "https://i.ibb.co/hfPMj7X/find-doctor-3.png",
       img4: "https://i.ibb.co/56mJfdz/find-doctor-2.png",
+      live: "https://find-doctor-91fbc.web.app/",
+      client: "https://github.com/ruhulzero7/find-doctor",
     },
     {
       id: 4,
@@ -85,6 +93,8 @@ const ProjectDetails = () => {
       img2: "https://i.ibb.co/FXX24dT/skillup-training-2.png",
       img3: "https://i.ibb.co/hY700fJ/skillup-training-3.png",
       img4: "https://i.ibb.co/D1RswTW/skillup-training-4.png",
+      live: "https://skillup-training-ruhul.netlify.app/",
+      client: "https://github.com/ruhulzero7/skillup-training",
     },
     {
       id: 5,
@@ -101,6 +111,8 @@ const ProjectDetails = () => {
       img2: "https://i.ibb.co/YfShn6V/concert-2.png",
       img3: "https://i.ibb.co/qkHz9DB/concert-3.png",
       img4: "https://i.ibb.co/9HVtyDN/concert-4.png",
+      live: "https://arrange-a-concert-ruhul.netlify.app/",
+      client: "https://github.com/ruhulzero7/arrange-a-concert",
     },
     {
       id: 6,
@@ -117,6 +129,8 @@ const ProjectDetails = () => {
       img2: "https://i.ibb.co/99B7y5D/honda-cbr-2.png",
       img3: "https://i.ibb.co/nMDdyrt/honda-cbr-3.png",
       img4: "https://i.ibb.co/kxSZz4M/honda-cbr-4.png",
+      live: "https://ruhulzero7.github.io/honda-cbr-bootstrap/",
+      client: "https://github.com/ruhulzero7/honda-cbr-bootstrap",
     },
   ];
 
@@ -125,12 +139,13 @@ const ProjectDetails = () => {
   console.log(selected);
 
   return (
-    <Container className="project-details-container">
+    <Container className="project-details-container py-5 mt-5">
       <h1
         style={{
           textAlign: "center",
           marginTop: "30px",
           marginBottom: "30px",
+          color: "orange",
         }}
       >
         Project Details
@@ -147,14 +162,22 @@ const ProjectDetails = () => {
       </ul>
 
       <button className="btn btn-dark">
-        <a href="">Live</a>
+        <a href={selected.live} target="_blank">
+          Live
+        </a>
       </button>
       <button className="btn btn-dark mx-3">
-        <a href="">Client Side Code</a>
+        <a href={selected.client} target="_blank">
+          Client Side Code
+        </a>
       </button>
-      <button className="btn btn-dark">
-        <a href="">Server Side Code</a>
-      </button>
+      {selected.server && (
+        <button className="btn btn-dark">
+          <a href={selected.server} target="_blank">
+            Server Side Code
+          </a>
+        </button>
+      )}
       <br />
       <br />
       <h3>Project Preview</h3>

@@ -7,7 +7,9 @@ const About = () => {
     <Container className="about-container" Row md={2} sm={1} xs={1}>
       <Col className="about-left pt-5">
         <div className="skills text-start">
-          <h3>SKILLS</h3>
+          <h3 className="mb-5" style={{ color: "orange" }}>
+            SKILLS
+          </h3>
           <div>
             <span>HTML 80%</span>
             <ProgressBar striped variant="success" now={80} />
@@ -30,7 +32,9 @@ const About = () => {
         </div>
       </Col>
       <Col className="about-right p-5">
-        <h2>ABOUT ME</h2>
+        <h2 className="mb-5" style={{ color: "orange" }}>
+          ABOUT ME
+        </h2>
         <p>
           I have always been passionate about web development, which led me to
           pursue a Bachelor of Computer Science degree. I am constantly seeking

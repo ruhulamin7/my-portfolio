@@ -7,7 +7,10 @@
         "img1": "https://www.observerbd.com/2018/06/06/1528260067.jpg",
         "img2": "https://www.observerbd.com/2018/06/06/1528260067.jpg",
         "img3": "https://www.observerbd.com/2018/06/06/1528260067.jpg",
-        "img4": "https://www.observerbd.com/2018/06/06/1528260067.jpg"
+        "img4": "https://www.observerbd.com/2018/06/06/1528260067.jpg",
+        "live": "https://car-world-97a18.web.app/",
+        "client": "https://github.com/ruhulzero7/car-world-client",
+        "server": "https://github.com/ruhulzero7/car-world-server"
     },
     {
         "id": 2,
@@ -16,7 +19,8 @@
         "born": " October 15, 1979, Dhaka.",
         "song": "Doob, Tomake Chere Ami, Prithibir Joto Sukh",
         "rate": 80000,
-        "img": "https://yt3.ggpht.com/ytc/AKedOLT5Y4QxvHam4uSFXFyljPXeVXsEXBEKLU7qAO09=s900-c-k-c0x00ffffff-no-rj"
+        "img": "https://yt3.ggpht.com/ytc/AKedOLT5Y4QxvHam4uSFXFyljPXeVXsEXBEKLU7qAO09=s900-c-k-c0x00ffffff-no-rj",
+        
     },
     {
         "id": 3,

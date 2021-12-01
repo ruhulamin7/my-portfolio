@@ -1,7 +1,7 @@
 .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background-color: #444f6183;
+  background-color: #474747;
   border-radius: 20px;
   margin-top: 50px;
 }
@@ -17,4 +17,5 @@
 .about-right {
   text-align: left;
   font-size: 20px;
+  font-weight: 300;
 }

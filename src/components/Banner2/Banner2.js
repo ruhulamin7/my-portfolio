@@ -27,7 +27,7 @@ const Banner2 = () => {
           loop
         />
 
-        <button className=" resume-btn">
+        <button className="resume-btn">
           {" "}
           <a
             style={{

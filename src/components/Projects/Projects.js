@@ -20,7 +20,9 @@ const Projects = () => {
 
   return (
     <Container className="project-container my-5 py-3">
-      <h2 className="my-5">PROJECTS</h2>
+      <h2 className="my-5" style={{ color: "orange" }}>
+        PROJECTS
+      </h2>
       <Row md={3} sm={2} xs={1}>
         <Col>
           <Card className="mb-5 custom-card">
@@ -34,39 +36,8 @@ const Projects = () => {
                 <p>Admin ID: admin@admin.com Pass: 123456</p>
               </Card.Text>
 
-              <Button variant="outline-dark">
-                <a
-                  style={{ textDecoration: "none" }}
-                  className="watch-live"
-                  href="https://car-world-97a18.web.app/"
-                  target="_blank"
-                >
-                  Live Site
-                </a>
-              </Button>
-              <Button variant="outline-dark">
-                <a
-                  style={{ textDecoration: "none" }}
-                  className="watch-live"
-                  href="https://github.com/ruhulzero7/car-world-client"
-                  target="_blank"
-                >
-                  Client Side Code
-                </a>
-              </Button>
-              <Button variant="outline-dark">
-                <a
-                  style={{ textDecoration: "none" }}
-                  className="watch-live"
-                  href="https://github.com/ruhulzero7/car-world-server"
-                  target="_blank"
-                >
-                  Server Side Code
-                </a>
-              </Button>
-
               <Link to={`/projectDetails/${1}`}>
-                <Button variant="outline-dark">View Details</Button>
+                <button className="details-btn">View Details</button>
               </Link>
             </Card.Body>
           </Card>
@@ -81,38 +52,9 @@ const Projects = () => {
                 Technology used : React, React Bootstrap, Firebase, Node.js,
                 Express Js, MongoDB, React Router, React Private Route.
               </Card.Text>
-              <Button variant="outline-dark">
-                <a
-                  style={{ textDecoration: "none" }}
-                  className="watch-live"
-                  href="https://eloquent-bartik-bba836.netlify.app/"
-                  target="_blank"
-                >
-                  Live Site
-                </a>
-              </Button>
-              <Button variant="outline-dark">
-                <a
-                  style={{ textDecoration: "none" }}
-                  className="watch-live"
-                  href="https://github.com/ruhulzero7/cyclone-tour-client"
-                  target="_blank"
-                >
-                  Client Side Code
-                </a>
-              </Button>
-              <Button variant="outline-dark">
-                <a
-                  style={{ textDecoration: "none" }}
-                  className="watch-live"
-                  href="https://github.com/ruhulzero7/cyclone-tour-server"
-                  target="_blank"
-                >
-                  Server Side Code
-                </a>
-              </Button>
+
               <Link to={`/projectDetails/${2}`}>
-                <Button variant="outline-dark">View Details</Button>
+                <button className="details-btn">View Details</button>
               </Link>
             </Card.Body>
           </Card>
@@ -127,28 +69,9 @@ const Projects = () => {
                 Technology used : React, Firebase, React Bootstrap, React Router
                 and Private Route.
               </Card.Text>
-              <Button variant="outline-dark">
-                <a
-                  style={{ textDecoration: "none" }}
-                  className="watch-live"
-                  href="https://find-doctor-91fbc.web.app/"
-                  target="_blank"
-                >
-                  Live Site
-                </a>
-              </Button>
-              <Button variant="outline-dark">
-                <a
-                  style={{ textDecoration: "none" }}
-                  className="watch-live"
-                  href="https://github.com/ruhulzero7/find-doctor"
-                  target="_blank"
-                >
-                  Code
-                </a>
-              </Button>
+
               <Link to={`/projectDetails/${3}`}>
-                <Button variant="outline-dark">View Details</Button>
+                <button className="details-btn">View Details</button>
               </Link>
             </Card.Body>
           </Card>
@@ -160,28 +83,9 @@ const Projects = () => {
             <Card.Body>
               <Card.Title>Skilup Training</Card.Title>
               <Card.Text>Technology used : React, React Bootstrap</Card.Text>
-              <Button variant="outline-dark">
-                <a
-                  style={{ textDecoration: "none" }}
-                  className="watch-live"
-                  href="https://skillup-training-ruhul.netlify.app/"
-                  target="_blank"
-                >
-                  Live Site
-                </a>
-              </Button>
-              <Button variant="outline-dark">
-                <a
-                  style={{ textDecoration: "none" }}
-                  className="watch-live"
-                  href="https://github.com/ruhulzero7/skillup-training"
-                  target="_blank"
-                >
-                  Code
-                </a>
-              </Button>
+
               <Link to={`/projectDetails/${4}`}>
-                <Button variant="outline-dark">View Details</Button>
+                <button className="details-btn">View Details</button>
               </Link>
             </Card.Body>
           </Card>
@@ -193,28 +97,9 @@ const Projects = () => {
             <Card.Body>
               <Card.Title>Arrange A Concert</Card.Title>
               <Card.Text>Technology used : HTML, CSS, Bootstrap</Card.Text>
-              <Button variant="outline-dark">
-                <a
-                  style={{ textDecoration: "none" }}
-                  className="watch-live"
-                  href="https://arrange-a-concert-ruhul.netlify.app/"
-                  target="_blank"
-                >
-                  Live Site
-                </a>
-              </Button>
-              <Button variant="outline-dark">
-                <a
-                  style={{ textDecoration: "none" }}
-                  className="watch-live"
-                  href="https://github.com/ruhulzero7/arrange-a-concert"
-                  target="_blank"
-                >
-                  Code
-                </a>
-              </Button>
+
               <Link to={`/projectDetails/${5}`}>
-                <Button variant="outline-dark">View Details</Button>
+                <button className="details-btn">View Details</button>
               </Link>
             </Card.Body>
           </Card>
@@ -226,28 +111,9 @@ const Projects = () => {
             <Card.Body>
               <Card.Title>Honda CBR</Card.Title>
               <Card.Text>Technology used : HTML, CSS, Bootstrap</Card.Text>
-              <Button variant="outline-dark">
-                <a
-                  style={{ textDecoration: "none" }}
-                  className="watch-live"
-                  href="https://ruhulzero7.github.io/honda-cbr-bootstrap/"
-                  target="_blank"
-                >
-                  Live Site
-                </a>
-              </Button>
-              <Button variant="outline-dark">
-                <a
-                  style={{ textDecoration: "none" }}
-                  className="watch-live"
-                  href="https://github.com/ruhulzero7/honda-cbr-bootstrap"
-                  target="_blank"
-                >
-                  Code
-                </a>
-              </Button>
+
               <Link to={`/projectDetails/${6}`}>
-                <Button variant="outline-dark">View Details</Button>
+                <button className="details-btn">View Details</button>
               </Link>
             </Card.Body>
           </Card>

@@ -15,7 +15,16 @@ const Header = () => {
       >
         <Container>
           <Navbar.Brand to="/home">
-            <span style={{ color: "orange" }}>Ruhul Amin's Portfolio</span>
+            <span
+              style={{
+                color: "orange",
+                letterSpacing: "5px",
+                fontSize: "25px",
+                fontWeight: "300",
+              }}
+            >
+              RUHUL AMIN's PORTFOLIO
+            </span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

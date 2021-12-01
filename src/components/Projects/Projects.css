@@ -1,11 +1,12 @@
 .project-container {
-  background-color: #444f6183;
+  background-color: #474747;
   border-radius: 20px;
 }
 
-.custom-card {
-  min-height: 400px;
+.project-container .custom-card {
+  min-height: 500px;
   overflow: hidden;
+  background-color: rgb(45, 49, 49);
 }
 .custom-card img {
   transition: 0.5s;
@@ -13,4 +14,17 @@
 
 .custom-card:hover img {
   transform: scale(1.1);
+}
+
+.details-btn {
+  background-color: transparent;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  border: 2px solid orange;
+  margin: 40px 0px;
+  color: aliceblue;
+}
+.details-btn:hover {
+  background-color: rgba(255, 166, 0, 0.418);
 }
