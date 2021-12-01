@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #474747;
+  /* background-color: #474747; */
   border-radius: 20px;
 }
 .contact-img img {

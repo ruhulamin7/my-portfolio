@@ -139,13 +139,14 @@ const ProjectDetails = () => {
   console.log(selected);
 
   return (
-    <Container className="project-details-container py-5 mt-5">
+    <Container className="project-details-container py-5 ">
       <h1
         style={{
           textAlign: "center",
           marginTop: "30px",
           marginBottom: "30px",
           color: "orange",
+          fontWeight: "300",
         }}
       >
         Project Details

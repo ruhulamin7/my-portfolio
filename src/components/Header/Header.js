@@ -23,7 +23,7 @@ const Header = () => {
                 fontWeight: "300",
               }}
             >
-              RUHUL AMIN's PORTFOLIO
+              RUHUL AMIN
             </span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

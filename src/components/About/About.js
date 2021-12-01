@@ -4,10 +4,10 @@ import { Col, Container, ProgressBar } from "react-bootstrap";
 
 const About = () => {
   return (
-    <Container className="about-container" Row md={2} sm={1} xs={1}>
+    <Container className="about-container">
       <Col className="about-left pt-5">
         <div className="skills text-start">
-          <h3 className="mb-5" style={{ color: "orange" }}>
+          <h3 className="mb-5" style={{ color: "orange", fontWeight: "300" }}>
             SKILLS
           </h3>
           <div>
@@ -32,7 +32,7 @@ const About = () => {
         </div>
       </Col>
       <Col className="about-right p-5">
-        <h2 className="mb-5" style={{ color: "orange" }}>
+        <h2 className="mb-5" style={{ color: "orange", fontWeight: "300" }}>
           ABOUT ME
         </h2>
         <p>

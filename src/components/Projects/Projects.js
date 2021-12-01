@@ -19,8 +19,8 @@ const Projects = () => {
   }, []);
 
   return (
-    <Container className="project-container my-5 py-3">
-      <h2 className="my-5" style={{ color: "orange" }}>
+    <Container className="project-container py-3">
+      <h2 className="my-5" style={{ color: "orange", fontWeight: "300" }}>
         PROJECTS
       </h2>
       <Row md={3} sm={2} xs={1}>
