@@ -41,7 +41,7 @@
   color: beige;
   padding: 5px 15px;
   border: 1px solid orange;
-  border-radius: 5px;
+  border-radius: 50px;
   margin: 10px;
 }
 
@@ -50,7 +50,7 @@
   padding: 10px 15px;
   border-radius: 5px;
   text-transform: uppercase;
-  border: 2px solid orange;
+  border: 1px solid orange;
   margin-top: 20px;
 }
 .resume-btn a {
@@ -62,5 +62,5 @@
 }
 .resume-btn:hover {
   background-color: orange;
-  border: 2px solid beige;
+  border: 1px solid beige;
 }

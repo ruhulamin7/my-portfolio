@@ -2,12 +2,106 @@ import React from "react";
 import "./Banner2.css";
 import Typed from "react-typed";
 import ruhul from "../../images/ruhul-pro.jpg";
+import Particles from "react-tsparticles";
 
 const Banner2 = () => {
+  const particlesInit = (main) => {
+    console.log(main);
+
+    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
+  };
+
+  const particlesLoaded = (container) => {
+    console.log(container);
+  };
   return (
     <div className="banner2-container ">
+      <Particles
+        id="tsparticles"
+        init={particlesInit}
+        loaded={particlesLoaded}
+        options={{
+          fpsLimit: 160,
+          interactivity: {
+            events: {
+              onClick: {
+                enable: true,
+                mode: "push",
+              },
+              onHover: {
+                enable: true,
+                mode: "repulse",
+              },
+              resize: true,
+            },
+            modes: {
+              bubble: {
+                distance: 400,
+                duration: 2,
+                opacity: 0.8,
+                size: 4,
+              },
+              push: {
+                quantity: 4,
+              },
+              repulse: {
+                distance: 100,
+                duration: 0.4,
+              },
+            },
+          },
+          particles: {
+            color: {
+              value: "#ffffff",
+            },
+            links: {
+              color: "#ffffff",
+              distance: 200,
+              enable: true,
+              opacity: 0.1,
+              width: 1,
+            },
+            collisions: {
+              enable: true,
+            },
+            move: {
+              direction: "none",
+              enable: true,
+              outMode: "bounce",
+              random: false,
+              speed: 1,
+              straight: false,
+            },
+            number: {
+              density: {
+                enable: true,
+                value_area: 800,
+              },
+              value: 100,
+            },
+            opacity: {
+              value: 0.1,
+            },
+            shape: {
+              type: "circle",
+            },
+            size: {
+              random: true,
+              value: 5,
+            },
+          },
+          detectRetina: true,
+        }}
+      />
       <div className="main-info">
-        <img className="frofile-img my-3" src={ruhul} alt="" />
+        <img
+          className="frofile-img my-3"
+          src={ruhul}
+          alt=""
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        />
         <h3 style={{ fontWeight: "300" }}>HEY THERE!</h3>
         <h1>
           I AM
@@ -29,10 +123,10 @@ const Banner2 = () => {
 
         <div className="social-link">
           <a href="https://github.com/ruhulzero7" target="_blank">
-            Github
+            <i class="fab fa-github"></i> Github
           </a>
           <a href="https://www.linkedin.com/in/ruhulzero7" target="_blank">
-            LinkedIn
+            <i class="fab fa-linkedin"></i> LinkedIn
           </a>
         </div>
 
@@ -43,7 +137,7 @@ const Banner2 = () => {
             href="https://drive.google.com/file/d/14kPP0Y2WNuayYaBDyYXpsXkD52hzrvji/view?usp=sharing"
             target="_blank"
           >
-            Download Resume
+            <i class="fas fa-download"></i> Download Resume
           </a>
         </button>
       </div>

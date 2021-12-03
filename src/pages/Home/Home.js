@@ -5,6 +5,7 @@ import About from "../../components/About/About";
 import Banner2 from "../../components/Banner2/Banner2";
 import Contact from "../../components/Contact/Contact";
 import Projects from "../../components/Projects/Projects";
+import Services from "../../components/Services/Services";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Banner2></Banner2>
 
       <About></About>
+      {/* <Services></Services> */}
 
       <Projects></Projects>
 

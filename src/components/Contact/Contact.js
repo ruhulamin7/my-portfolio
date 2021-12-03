@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import { Container, Form } from "react-bootstrap";
-import contactImg from "../../images/TaeAugust11.jpg";
+import contactImg from "../../images/TaeAugust11.png";
 
 const Contact = () => {
   return (
@@ -14,10 +14,10 @@ const Contact = () => {
           >
             CONTACT ME
           </h3>
-          <div className="contact-img col-md-5">
+          <div className="contact-img col-md-5" data-aos="fade-right">
             <img src={contactImg} alt="" />
           </div>
-          <div className="contact-form col-md-6 my-5">
+          <div className="contact-form col-md-6 my-5" data-aos="fade-left">
             <p style={{ fontSize: "20px", fontWeight: "300" }}>
               Please feel free to contact me if you need any further
               information.
@@ -51,6 +51,7 @@ const Contact = () => {
               >
                 {/* <Form.Label>Your comments Here</Form.Label> */}
                 <Form.Control
+                  id="textarea"
                   as="textarea"
                   name="message"
                   placeholder="Your Message"

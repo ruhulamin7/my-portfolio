@@ -25,15 +25,14 @@ const Projects = () => {
       </h2>
       <Row md={3} sm={2} xs={1}>
         <Col>
-          <Card className="mb-5 custom-card">
-            <Card.Img variant="top" src={carword} />
+          <Card className="mb-5 custom-card" data-aos="zoom-in-down">
+            <Card.Img variant="top" src={carword} className="project-img" />
             <Card.Body>
               <Card.Title>Car World</Card.Title>
               <Card.Text>
                 Technology used : React, Node Js, Express Js, Firebase, MongoDB,
                 React Router and React Nesting Router, Private Route, React Hook
                 Form and Axios.
-                <p>Admin ID: admin@admin.com Pass: 123456</p>
               </Card.Text>
 
               <Link to={`/projectDetails/${1}`}>
@@ -44,7 +43,7 @@ const Projects = () => {
         </Col>
 
         <Col>
-          <Card className="mb-5 custom-card">
+          <Card className="mb-5 custom-card" data-aos="zoom-in-down">
             <Card.Img variant="top" src={cyclone} />
             <Card.Body>
               <Card.Title>Cyclone Tour</Card.Title>
@@ -61,7 +60,7 @@ const Projects = () => {
         </Col>
 
         <Col>
-          <Card className="mb-5 custom-card">
+          <Card className="mb-5 custom-card" data-aos="zoom-in-down">
             <Card.Img variant="top" src={doccure} />
             <Card.Body>
               <Card.Title>Find Doctor</Card.Title>
@@ -78,7 +77,7 @@ const Projects = () => {
         </Col>
 
         <Col>
-          <Card className="mb-5 custom-card">
+          <Card className="mb-5 custom-card" data-aos="zoom-in-down">
             <Card.Img variant="top" src={skillup} />
             <Card.Body>
               <Card.Title>Skilup Training</Card.Title>
@@ -92,7 +91,7 @@ const Projects = () => {
         </Col>
 
         <Col>
-          <Card className="mb-5 custom-card">
+          <Card className="mb-5 custom-card" data-aos="zoom-in-down">
             <Card.Img variant="top" src={concert} />
             <Card.Body>
               <Card.Title>Arrange A Concert</Card.Title>
@@ -106,7 +105,7 @@ const Projects = () => {
         </Col>
 
         <Col>
-          <Card className="mb-5 custom-card">
+          <Card className="mb-5 custom-card" data-aos="zoom-in-down">
             <Card.Img variant="top" src={hondaCbr} />
             <Card.Body>
               <Card.Title>Honda CBR</Card.Title>

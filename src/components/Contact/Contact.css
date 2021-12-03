@@ -25,3 +25,10 @@
 .btn-book:hover {
   background-color: rgba(255, 166, 0, 0.473);
 }
+.contact-container input,
+#textarea {
+  background-color: transparent;
+  color: beige;
+  background-color: #2d3131;
+  border: 1px solid orange;
+}
