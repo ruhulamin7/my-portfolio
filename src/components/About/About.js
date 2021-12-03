@@ -6,7 +6,7 @@ const About = () => {
   return (
     <Container className="about-container">
       <Col className="about-left pt-5">
-        <div className="skills text-start" data-aos="fade-right">
+        <div className="skills text-start" data-aos="fade-down">
           <h3 className="mb-5" style={{ color: "orange", fontWeight: "300" }}>
             SKILLS
           </h3>
@@ -43,7 +43,7 @@ const About = () => {
         </div>
       </Col>
       <Col className="about-right p-5">
-        <div data-aos="fade-left">
+        <div data-aos="fade-up">
           <h2 className="mb-5" style={{ color: "orange", fontWeight: "300" }}>
             ABOUT ME
           </h2>

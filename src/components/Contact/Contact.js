@@ -14,10 +14,10 @@ const Contact = () => {
           >
             CONTACT ME
           </h3>
-          <div className="contact-img col-md-5" data-aos="fade-right">
+          <div className="contact-img col-md-5" data-aos="fade-down">
             <img src={contactImg} alt="" />
           </div>
-          <div className="contact-form col-md-6 my-5" data-aos="fade-left">
+          <div className="contact-form col-md-6 my-5" data-aos="fade-up">
             <p style={{ fontSize: "20px", fontWeight: "300" }}>
               Please feel free to contact me if you need any further
               information.
