@@ -22,6 +22,7 @@ const Banner = () => {
         backSpeed={30}
         loop
       />
+
       <br />
       <br />
 

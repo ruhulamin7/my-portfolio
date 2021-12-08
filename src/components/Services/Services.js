@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <Container>
       <h3
-        className="choose-text my-5 "
+        className="choose-text my-5 pt-5"
         style={{ color: "orange", fontWeight: "300" }}
       >
         MY SERVICES

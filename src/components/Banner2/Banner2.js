@@ -116,8 +116,8 @@ const Banner2 = () => {
             "💻 React Developer",
             "💻 MERN Stack Developer",
           ]}
-          typeSpeed={40}
-          backSpeed={60}
+          typeSpeed={30}
+          backSpeed={20}
           loop
         />
 
