@@ -134,7 +134,7 @@ const Banner2 = () => {
           {" "}
           <a
             className="watch-live"
-            href="https://drive.google.com/file/d/14kPP0Y2WNuayYaBDyYXpsXkD52hzrvji/view?usp=sharing"
+            href="https://drive.google.com/file/d/1lBdxq0HZCbx3VcX6R4Jn6EfiSfJDkZ0W/view?usp=sharing"
             target="_blank"
           >
             <i class="fas fa-download"></i> Download Resume
