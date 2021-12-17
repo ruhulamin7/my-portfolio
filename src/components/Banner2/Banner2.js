@@ -2,7 +2,7 @@ import React from "react";
 import "./Banner2.css";
 import Typed from "react-typed";
 import ruhul from "../../images/ruhul-pro.jpg";
-import Particles from "react-tsparticles";
+// import Particles from "react-tsparticles";
 
 const Banner2 = () => {
   const particlesInit = (main) => {
@@ -16,7 +16,7 @@ const Banner2 = () => {
   };
   return (
     <div className="banner2-container ">
-      <Particles
+      {/* <Particles
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
@@ -92,7 +92,7 @@ const Banner2 = () => {
           },
           detectRetina: true,
         }}
-      />
+      /> */}
       <div className="main-info">
         <img
           className="frofile-img my-3"
