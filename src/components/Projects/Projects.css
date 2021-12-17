@@ -10,12 +10,11 @@
   border: 1px solid orange;
 }
 .custom-card img {
-  transition: 0.5s;
-  padding: 20px;
+  transition: 0.7s;
 }
 
 .custom-card:hover img {
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 
 .details-btn {

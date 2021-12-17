@@ -36,7 +36,7 @@ const Banner2 = () => {
             },
             modes: {
               bubble: {
-                distance: 400,
+                distance: 100,
                 duration: 2,
                 opacity: 0.8,
                 size: 4,
@@ -57,7 +57,7 @@ const Banner2 = () => {
             links: {
               color: "#ffffff",
               distance: 200,
-              enable: true,
+              // enable: true,
               opacity: 0.1,
               width: 1,
             },
@@ -116,8 +116,8 @@ const Banner2 = () => {
             "💻 React Developer",
             "💻 MERN Stack Developer",
           ]}
-          typeSpeed={30}
-          backSpeed={20}
+          typeSpeed={40}
+          backSpeed={30}
           loop
         />
 

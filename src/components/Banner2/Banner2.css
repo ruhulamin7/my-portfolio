@@ -32,9 +32,8 @@
   margin-top: 40px;
 }
 .social-link a:hover {
-  background-color: orange;
+  background-color: rgba(255, 166, 0, 0.418);
   color: beige;
-  border: 1px solid beige;
 }
 .social-link a {
   text-decoration: none;
@@ -61,6 +60,5 @@
   color: beige;
 }
 .resume-btn:hover {
-  background-color: orange;
-  border: 1px solid beige;
+  background-color: rgba(255, 166, 0, 0.418);
 }
