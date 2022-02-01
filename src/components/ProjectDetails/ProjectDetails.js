@@ -55,7 +55,7 @@ const ProjectDetails = () => {
       img2: "https://i.ibb.co/Y0GgnsL/cyclone-tour-2.png",
       img3: "https://i.ibb.co/KsQ70C2/cyclone-tour-3.png",
       img4: "https://i.ibb.co/c1MG59K/cyclone-tour-4.png",
-      live: "https://eloquent-bartik-bba836.netlify.app/",
+      live: "https://cyclone-tour.web.app/",
       client: "https://github.com/ruhulzero7/cyclone-tour-client",
       server: "https://github.com/ruhulzero7/cyclone-tour-server",
     },
