@@ -1,7 +1,9 @@
 import React from "react";
 import "./Banner2.css";
 import Typed from "react-typed";
-import ruhul from "../../images/ruhul-pro.jpg";
+import ruhul from "../../images/Ruhul.jpg";
+import ruhul2 from "../../images/ruhul-pro.jpg";
+import Particles from "react-tsparticles";
 // import Particles from "react-tsparticles";
 
 const Banner2 = () => {
@@ -29,8 +31,8 @@ const Banner2 = () => {
                 mode: "push",
               },
               onHover: {
-                enable: true,
-                mode: "repulse",
+                // enable: true,
+                // mode: "repulse",
               },
               resize: true,
             },
@@ -57,7 +59,7 @@ const Banner2 = () => {
             links: {
               color: "#ffffff",
               distance: 200,
-              // enable: true,
+              enable: true,
               opacity: 0.1,
               width: 1,
             },
@@ -122,10 +124,18 @@ const Banner2 = () => {
         />
 
         <div className="social-link">
-          <a href="https://github.com/ruhulzero7" target="_blank">
+          <a
+            href="https://github.com/ruhulZero7"
+            target="_blank "
+            rel="noreferrer"
+          >
             <i class="fab fa-github"></i> Github
           </a>
-          <a href="https://www.linkedin.com/in/ruhulzero7" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/ruhulzero7"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i class="fab fa-linkedin"></i> LinkedIn
           </a>
         </div>
@@ -134,8 +144,9 @@ const Banner2 = () => {
           {" "}
           <a
             className="watch-live"
-            href="https://drive.google.com/file/d/1vOMK5nFohw32Nr7MXKErpxOs7hO4uRNy/view?usp=sharing"
+            href="https://drive.google.com/file/d/1lBdxq0HZCbx3VcX6R4Jn6EfiSfJDkZ0W/view?usp=sharing"
             target="_blank"
+            rel="noreferrer"
           >
             <i class="fas fa-download"></i> Download Resume
           </a>

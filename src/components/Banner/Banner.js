@@ -2,6 +2,7 @@ import React from "react";
 import "./Banner.css";
 import ruhul from "../../images/ruhul-pro.jpg";
 import Typed from "react-typed";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -28,14 +29,14 @@ const Banner = () => {
 
       <button className="btn btn-dark">
         {" "}
-        <a
+        <Link
           style={{ textDecoration: "none", color: "white", marginTop: "30px" }}
           className="watch-live"
-          href="https://drive.google.com/file/d/14kPP0Y2WNuayYaBDyYXpsXkD52hzrvji/view?usp=sharing"
+          href="https://drive.google.com/file/d/1lBdxq0HZCbx3VcX6R4Jn6EfiSfJDkZ0W/view?usp=sharing"
           target="_blank"
         >
           Download Resume
-        </a>
+        </Link>
       </button>
       <br />
 
